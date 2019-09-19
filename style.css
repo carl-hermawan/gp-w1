@@ -6,6 +6,8 @@ body{
 header{
 	background-color: lightblue;
 	height: 100px;
+	position: sticky;
+	top: 0;
 }
 
 #logo{
@@ -17,6 +19,10 @@ nav{
 	text-align:right;
 }
 
+ul{
+	margin: 0;
+}
+
 li{
 	width:150px;
 	display: inline-block;
@@ -26,9 +32,27 @@ li{
 	color: black;
 }
 
+#promo{
+	text-align: center;
+}
+
+#promo div img{
+	width: 300px;
+}
+
+div{
+	width: 300px;
+	display: inline-block;
+}
+
+div.row{
+	width: auto;
+	display: block;	
+}
+
 footer{
 	margin: 0;
-	position: fixed;
+	position:sticky;
 	bottom: 0;
 	width: 100%;
 	background-color: black;
